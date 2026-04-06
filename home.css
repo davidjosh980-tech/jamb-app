@@ -1,0 +1,36 @@
+.head{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.body{
+    background: linear-gradient(135deg, blue, green);
+}
+.blink{
+    animation: blink-animation 2s infinite;
+    padding: 1px;
+    font-size: 32px;
+    color: rgb(26, 199, 26);
+}
+@keyframes blink-animation {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+.image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.firstname, .secondname, .thirdname{
+    font-size: 3rem;
+    font-weight: bold;
+}
+.name{
+    font-size: 3.5rem;
+}
+span{
+    font-size: 1.5rem;
+    text-align: left;
+    font-weight: bold;
+}

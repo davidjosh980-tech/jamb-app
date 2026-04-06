@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+}
+.form-label{
+    font-size: 1.5rem;
+    color: green;
+    margin-top: 16px;
+}
+#submit{
+    background-color: blue;
+    border: none;
+    padding: 8px 16px;
+    margin: 24px;
+    border-radius: 8px;
+}
+input{
+    margin: 8px;
+}
