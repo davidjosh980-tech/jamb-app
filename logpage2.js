@@ -13,5 +13,5 @@ document.getElementById('submit1').addEventListener('click', () => {
     localStorage.setItem('course', course);
     localStorage.setItem('uni', uni);
 
-    window.location.href = './boostrap1/boostrap1.html';
+    window.location.href = 'boostrap1/boostrap1.html';
 });
